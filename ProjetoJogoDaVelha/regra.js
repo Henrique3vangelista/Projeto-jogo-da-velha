@@ -48,3 +48,6 @@ let btn = document.querySelector('#refresh')
 btn.addEventListener('click', () =>{
     location.reload()
 })
+
+
+console.log("what are you doing here?")
