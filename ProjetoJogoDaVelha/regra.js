@@ -49,6 +49,3 @@ btn.addEventListener('click', () =>{
     location.reload()
 })
 
-
-console.log("what are you doing here?")
-console.log(" You are so beautiful ;) ")
