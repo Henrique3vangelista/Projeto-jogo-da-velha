@@ -1,0 +1,60 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    text-align: center;
+}
+
+
+.square{
+
+    width: 100px;
+    height: 100px;
+    background-color:rgb(128, 128, 128);
+    border: 1px solid rgb(255, 251, 0);
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F579";
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    line-height: 100px;
+
+
+
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\1F47E";
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    line-height: 100px;
+
+
+
+}
+
+#refresh{
+    border: 10px;
+    background-color: rgb(128, 130, 131);
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 30px;
+}
